@@ -1,6 +1,6 @@
 FROM xhofe/alist:latest
 LABEL MAINTAINER="i@nn.ci"
-EXPOSE 80
+EXPOSE 433
 RUN chmod -R 777 /opt/alist/data
 ADD alist.sh /alist.sh
 RUN chmod +x /alist.sh
